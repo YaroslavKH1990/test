@@ -1,0 +1,41 @@
+.about {
+  margin-bottom: 78px;
+
+  &__wrap {
+    max-width: 830px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  &__photo {
+    width: 50%;
+  }
+
+  &__text {
+    width: 50%;
+  }
+
+  &__title {
+    font-size: 35px;
+    font-family: 'Georgia';
+    color: #545454;
+    margin-bottom: 37px;
+    line-height: 1.3;
+  }
+
+  &__text-first {
+    margin-bottom: 34px;
+    font-size: 15px;
+    font-family: 'Arial';
+    font-style: normal;
+    line-height: 1.3;
+  }
+
+  &__text-second {
+    font-size: 15px;
+    font-family: 'Arial';
+    font-style: normal;
+    line-height: 1.3;
+  }
+}

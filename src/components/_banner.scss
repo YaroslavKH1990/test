@@ -1,0 +1,51 @@
+.banner {
+  background-image: url(../images/banner.png);
+  position: relative;
+  width: 100%;
+  height: 925px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 89px;
+
+  &__wrap {
+    position: relative;
+    top: 65px;
+    left: -349px;
+    width: 470px;
+    height: 320px;
+  }
+
+  &__title {
+    font-family: 'Georgia';
+    font-size: 44px;
+    color: #ffff;
+    margin-bottom: 46px;
+  }
+
+  &__text {
+    font-size: 15px;
+    font-family: 'Arial';
+    font-style: normal;
+    color: #cdcdcd;
+    margin-bottom: 42px;
+  }
+
+  &__button {
+    width: 207px;
+    height: 54px;
+    background-color: #ffff;
+    border-radius: 50px;
+    font-family: 'Georgia';
+    color: #292929;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+
+  &__button:hover {
+    background-color: #f1cdb3;
+  }
+}

@@ -1,0 +1,87 @@
+.help {
+  &__wrap {
+    max-width: 1040px;
+    margin: 0 auto;
+  }
+
+  &__title-text {
+    font-size: 35px;
+    font-family: 'Georgia';
+    color: #545454;
+    text-align: center;
+    line-height: 1.3;
+    margin-bottom: 80px;
+  }
+
+  &__icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__icon {
+    padding-top: 80px;
+    width: 20%;
+    height: 100px;
+    position: relative;
+    margin-bottom: 50px;
+  }
+}
+
+.icon-item::after {
+  content: '';
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 0;
+  left: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.food::after {
+  background-image: url(../icons/food.png);
+}
+
+.car::after {
+  background-image: url(../icons/ambulance.png);
+}
+
+.toys::after {
+  background-image: url(../icons/ball.png);
+}
+
+.bowls::after {
+  background-image: url(../icons/bowl.png);
+}
+
+.shampoos::after {
+  background-image: url(../icons/shampoo.png);
+}
+
+.vitamins::after {
+  background-image: url(../icons/pills.png);
+}
+
+.medicines::after {
+  background-image: url(../icons/syringe.png);
+}
+
+.collars::after {
+  background-image: url(../icons/leash.png);
+}
+
+.area::after {
+  background-image: url(../icons/cat.png);
+}
+
+.icon-item {
+  text-decoration: none;
+}
+
+.icon-text {
+  text-align: center;
+  font-family: 'Georgia';
+  font-size: 20px;
+  color: #545454;
+}
